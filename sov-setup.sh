@@ -180,7 +180,7 @@ fi
  #Installing Daemon
  cd ~
 wget https://github.com/SovCoinX/SovCoin/releases/download/2.0.1/sov-mn-2.0.1-ubuntu.tar.gz
-tar -zxvf ov-mn-2.0.1-ubuntu.tar.gz -C ~/SOV-MN-setup
+tar -zxvf sov-mn-2.0.1-ubuntu.tar.gz -C ~/SOV-MN-setup
 rm -rf sov-mn-2.0.1-ubuntu.tar.gz
 
  

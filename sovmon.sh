@@ -1,5 +1,5 @@
 #!/bin/bash
-# sovmon 1.0 - Sovereign Masternode Monitoring 
+# monmon 1.0 - Sovereign Masternode Monitoring 
 
 #Processing command line params
 if [ -z $1 ]; then dly=1; else dly=$1; fi   # Default refresh time is 1 sec
