@@ -229,7 +229,7 @@ onlynet=ipv4
 listen=1
 server=1
 daemon=1
-logintimestamps
+logintimestamps=1
 maxconnections=256
 externalip=$publicip:$PORT
 masternode=1
