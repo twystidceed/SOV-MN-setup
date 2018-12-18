@@ -171,7 +171,7 @@ rm -rf sov-mn-2.0.1-ubuntu.tar.gz
  # Deploy binaries to /usr/local/bin
  sudo cp ~/SOV-MN-setup/sov* /usr/local/bin/
  sudo chmod 755 -R ~/SOV-MN-setup
- sudo chmod 755 /usr/local/bin/bitcoin*
+ sudo chmod 755 /usr/local/bin/sov*
  
  # Deploy masternode monitoring script
  cp ~/SOV-MN-setup/sovmon.sh /usr/local/bin/
