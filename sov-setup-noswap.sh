@@ -168,10 +168,10 @@ rm -rf sov-mn-2.0.1-ubuntu.tar.gz
  
  stop_daemon
  
- # Deploy binaries to /usr/local/bin
- sudo cp ~/SOV-MN-setup/sov* /usr/local/bin/
+ # Deploy binaries to /usr/bin
+ sudo cp ~/SOV-MN-setup/sov* /usr/bin/
  sudo chmod 755 -R ~/SOV-MN-setup
- sudo chmod 755 /usr/local/bin/sov*
+ sudo chmod 755 /usr/bin/sov*
  
  # Deploy masternode monitoring script
  cp ~/SOV-MN-setup/sovmon.sh /usr/local/bin/
