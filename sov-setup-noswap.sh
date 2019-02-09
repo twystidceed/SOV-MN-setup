@@ -230,12 +230,11 @@ listen=1
 server=1
 daemon=1
 logintimestamps=1
-maxconnections=256
+maxconnections=10
+
 externalip=$publicip:$PORT
 masternode=1
 masternodeprivkey=$genkey
-addnode=154.16.7.176:11888
-addnode=149.28.215.143:11888
 EOF
 
 #Finally, starting daemon with new sov.conf
