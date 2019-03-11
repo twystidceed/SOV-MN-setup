@@ -261,7 +261,7 @@ sovd -daemon
 delay 5
 
 #Setting auto start cron job for sovd
-cronjob="@reboot sleep 30 && /usr/local/bin/sovd -daemon"
+cronjob="@reboot sleep 30 && sovd -daemon"
 crontab -l > tempcron
 if ! grep -q "$cronjob" tempcron; then
     echo -e "${GREEN}Configuring crontab job...${NC}"
